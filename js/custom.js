@@ -1,4 +1,6 @@
-$(function() {
+
+    
+   $(function() {
     $('.navbar-nav li a').bind('click', function(event) {
         var $anchor=$(this);
         $('html, body').stop().animate( {
@@ -39,31 +41,6 @@ baguetteBox.run('.baguette',{
                       mobile:       true,       // default
                       live:         true        // default
                     }
-
-
-
-
-
-
-
-
-
-
-                    ///fakeloader
-                    $("#fakeloader").fakeLoader({
-
-timeToHide:1200, //Time in milliseconds for fakeLoader disappear
-
-zIndex:"999",//Default zIndex
-
-spinner:"spinner5",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-
-bgColor:"yellow", //Hex, RGB or RGBA colors
-
-//imagePath:"bridge.jpg" //If you want can you insert your custom image
-
-});
-
                     )
 
   wow.init();
@@ -74,6 +51,3 @@ bgColor:"yellow", //Hex, RGB or RGBA colors
     $('#total').parallax("50%",.5); 
     $('#client').parallax("50%",.5); 
        $("html").niceScroll();
-
-         
-
