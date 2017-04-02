@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Raleway');
+*{
+         transition: all 0.4s ease;
+              -moz-transition: all 0.4s ease;
+     -webkit-transition: all 0.4s ease;
+
+
+}
+
+body{
+	font-family: 'Raleway',sans-serif;
+}
+
+.navbar-default {
+    background-color: transparent;
+    background: transparent;
+    border:0;
+     padding: 5px 0px;
+     transition: all 0.4s ease;
+    z-index: 10;
+
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+        color: #adadad;
+}
+.navbar-default .navbar-brand {
+    color: #d4cece;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #d4cece;
+    background-color: transparent;
+
+}
+
+.navbar-brand span {
+    font-size: 1.5em;
+    color: orange;
+    font-family: cursive;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #d4cece;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #6f6969;
+ background-color: rgba(243, 237, 237, 0.16);
+    transition: all 0.4s ease;
+}
+
+#top-menu{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+}
+
+#top-menu:after {
+    position: absolute;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.top-folio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #fff;
+    /* font-size: 12px; */
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.top-folio img{
+    max-width: 40%;
+}
+
+.top-folio h3{
+	    font-size: 35px;
+    font-weight: bold;
+    
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.top-folio p{
+   font-family: 'Satisfy', cursive;
+   font-size: 25px;
+
+}
+
+#about{
+	padding: 5em 0;
+}
+
+#about img{
+	    max-width: 70%;
+	        margin: 0 auto;
+}
+
+.about-info{
+padding: 2em 10px;
+    font-size: 17px;
+    text-align: justify;
+}
+.about-info h2{
+
+    font-family: 'Oswald', sans-serif;
+
+}
+.about-info h3{
+
+
+    font-family: 'Lobster', cursive;
+
+}
+
+.about-info p{
+
+    font-family: 'Macondo', cursive;
+
+}
+
+
+.btn-custom{
+	    background: orange;
+    color: #fff;
+    padding: 10px 15px;
+    transition: all 0.4s ease;
+}
+
+.btn-custom:hover{
+    transition: all 0.4s ease;
+    background: white;
+    border: 1px solid orange;
+    color: seagreen;
+    font-weight: bold;
+}
+
+#services, #exp{
+    padding: 6em 0;
+	background:#E0E1E2;
+	        min-height: 100vh;
+}
+
+#services h1, #exp h1{
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.my-service{
+    text-align: center;
+    background: #fff;
+    padding: 20px 2px;
+    margin: 20px 0px;;
+
+}
+
+.my-service i{
+    font-size: 3em;
+    color: orange;
+    height: 65px;
+    width: 65px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    line-height: 60px;
+    transition: all 0.4s ease;
+}
+
+.my-service i:hover{
+	background:orange;
+	color:white;
+
+}
+.my-service p{
+	    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+.my-service h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;}
+
+
+#total{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 300px;
+	position: relative;
+}
+
+#total:after {
+    position: absolute;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.total-text{
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding: 7em 0 ;
+}
+
+@media(max-width:991px)
+{
+	.total-text{
+		padding: 2em 0 !important;
+	}
+
+	.my-service h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+#exp .my-service h6 {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 15px 0 !important;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+}
+
+#total h4{
+font-size: 4em;
+    font-weight: bold;
+    color: orange;
+    font-family: cursive;
+}
+
+#total p{
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#exp .my-service{
+    text-align: left;
+    padding-left: 15px;
+    position: relative;
+}
+#exp .my-service p{
+    text-align: left;
+}
+
+
+#exp .my-service h6{
+font-size: 0.9em;
+    font-weight: bold;
+    padding: 2px 0;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+#exp .btn-custom{
+	    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+#recent{
+padding-bottom: 2em;
+}
+
+#recent h1{
+	text-transform: uppercase;
+padding: 1em;
+    text-decoration: underline;
+}
+
+#recent .list{
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    /* padding: 0px 0; */
+    overflow: hidden;
+}
+
+#recent .list a{
+    font-size: 1em;
+    color: orange;
+
+    width: 9em;
+    border: 2px solid orange;
+    border-radius: 10px;
+
+    transition: all 0.4s ease;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/*@media(max-width: 1199px)
+{
+	#recent .list a{
+    font-size: 15px;
+    color: orange;
+
+    width: 9em;
+    border: 2px solid orange;
+    border-radius: 10px;
+ 
+    transition: all 0.4s ease;
+    text-transform: uppercase;
+    display: block;
+}
+*/
+
+
+
+
+
+#recent .list a:hover
+{
+	   background: orange;
+    color: white;
+}
+
+.list-text{
+	    text-align: center;
+	        padding: 0px 10px;
+}
+
+
+@media(max-width: 1199px)
+{
+	#recent .list a{
+    font-size: 11px;
+    margin: 5px;
+
+	}
+}
+
+.recent-img{
+padding: 10px 0px;
+    margin: 10px 5px;
+}
+
+.recent-img img{
+    max-width: 100%;
+
+    min-height: 200px;
+}
+
+#client{
+	background:url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 550px;
+	position: relative;
+}
+
+#client:after{
+	position: absolute;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index:0;
+    left: 1;
+    top: 0;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #fff;
+    max-width: 600px;
+    padding: 5px 0;
+}
+
+.text h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.text i{
+    font-size: 3em;
+    color: orange;
+    height: 65px;
+    width: 65px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    line-height: 60px;
+    transition: all 0.4s ease;
+        margin-bottom: 15px;
+}
+.text i:hover{
+    color:white;
+    background:orange; 
+}
+
+#form-sect{
+    padding: 2em 0;
+    padding-bottom: 0px;
+}
+
+#form-sect h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 2.5em;
+}
+
+.form-header{
+	overflow: hidden;
+    padding: 0px 10px;
+        margin-bottom: 3em;
+}
+
+.form-header i{
+	    font-size: 3em;
+    color: orange;
+    height: 65px;
+    width: 65px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    line-height: 60px;
+    transition: all 0.4s ease;
+}
+.form-header i:hover{
+    color:#fff;
+    background:orange;
+
+}
+
+.form-point{ 
+    overflow: hidden;
+    text-align: center;
+    padding: 5px 0;
+}
+.form-point h3{
+    margin: 5px 0;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    font-family: cursive;
+}
+.form-point p{
+	    text-transform: uppercase;
+	    text-align: left;
+
+}
+
+.form-point .col-md-8{
+    padding: 0px;
+}
+
+@media(max-width: 991px)
+{
+	.form-point h3, .form-point p{
+		text-align: center;
+	}
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 4px;
+    border-bottom: 2px solid #393030;
+    margin: 15px 0;
+
+}
+.form textarea{
+	   width: 100%;
+border-bottom: 2px solid #898484;
+border-radius: 5px;}
+
+.map{
+    margin: 20px 0;
+    margin-bottom: -5px;
+}
+
+.map iframe{
+	    width: 100%;
+    max-height: 350px;
+}
+
+footer{
+padding: 3em 0;
+    background: #272822;
+}
+footer .final{
+	text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer p{
+	letter-spacing: 5px;
+    font-size: 16px;
+}
+
+footer a{
+	    color: orange;
+	        transition: all 0.4s ease
+}
+
+footer a:hover{
+	    background: orange;
+    color: white !important;
+    transition: all 0.4s ease
+}
